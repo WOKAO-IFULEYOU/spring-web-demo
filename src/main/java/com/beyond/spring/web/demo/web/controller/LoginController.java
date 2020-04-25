@@ -24,7 +24,7 @@ public class LoginController extends HttpServlet {
     * UserServiceImpl userService；
     *
     * 这里不能用@Autowired注解的原因不太明白，所以只好装配SpringContext工具类
-    * 在SpringContext工具类中，获取ApplicationContext.getBean()方法，来获取bean实例
+    * 在SpringContext工具类中，获取ApplicationContext.getBean(String beanId)方法，来获取bean实例
     */
     UserServiceImpl userService = SpringContext.getBean("userService");
 
