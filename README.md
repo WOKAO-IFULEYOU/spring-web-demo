@@ -1,7 +1,6 @@
 最简单的spring+web+bean自动装配
-```@Autowired
-UserServiceImpl userService；
-```
+`@Autowired`
+`UserServiceImpl userService；`
 不能以上边的方式直接获取bean实例的原因，还不明白
 
 ## pom.xml
